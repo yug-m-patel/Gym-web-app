@@ -61,10 +61,10 @@ document.getElementById("fee").innerHTML = fee.toFixed(2);
 }
 function markExe() {
   var m1 = exe.question0.value;
-  var m2 = exe.question1.value;
+  var m2 = exe.question1.value; 
   var m3 = exe.question2.value;
   var marks = Number(m1) + Number(m2) + Number(m3);
-  alert("You have " + marks + " Ratings!!");
+  alert("You have " + marks + "/9  Ratings!!");
   return false;
 }
 

@@ -38,50 +38,42 @@
       </button>
     </div>
   </header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">menue</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+        <a class="navbar-brand col-lg-3 me-0" href="./index.html">Home</a>
+        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Features
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Personal training</a></li>
-              <li><a class="dropdown-item" href="#">dite plan</a></li>
-              <li><a class="dropdown-item" href="#">virtal visit</a></li>
-              <li><a class="dropdown-item" href="#">Exercise Plan</a></li>
-              <!-- <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallary</a>
+            <a class="nav-link active" aria-current="page" href="./member.html">Membership</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./bmi.html">BMI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="./register.html">Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./register.html">Register hear</a>
+            <a class="nav-link" href="./Exercise.html">Work Out Raiting</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./member.html">check</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Exercise.html">Rate Exercise</a>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Plans</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PT</a></li>
+              <li><a class="dropdown-item" href="#">Exercise</a></li>
+              <li><a class="dropdown-item" href="#">Diet</a></li>
+            </ul>
           </li>
         </ul>
+        <!-- <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+          <button class="btn btn-primary" >Register</button>
+        </div> -->
       </div>
     </div>
   </nav>
@@ -156,7 +148,9 @@
                   </td>
                 </tr>
               </table>
-              <input type="button" value="Submit" onclick="markExe()">
+              <div class="exe-submit">
+                <input type="button" value="Submit" onclick="markExe()">
+              </div>
             </div>
           </form>
         </div>
@@ -164,11 +158,10 @@
 
     </article>
     <article>
+      most imp things
       <table>
         <tr>
-          <td>
-            most imp things
-          </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
           <td>
             <div class="card" style="width: 18rem;">
               <img src="images/dumble.jpeg" class="card-img-top" alt="...">
@@ -180,6 +173,31 @@
               </div>
             </div>
           </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>
+            <div class="card" style="width: 18rem;">
+              <img src="images/dumble.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>
+            <div class="card" style="width: 18rem;">
+              <img src="images/dumble.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
           <td>
             <div class="card" style="width: 18rem;">
               <img src="images/dumble.jpeg" class="card-img-top" alt="...">
@@ -193,7 +211,6 @@
           </td>
         </tr>
       </table>
-
     </article>
   </section>
   <footer class="py-5">

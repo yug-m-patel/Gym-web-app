@@ -61,3 +61,33 @@ footer{
     padding: 32px;
     background-color:rgba(0, 0, 0, 0.484) ;
 }
+
+#carouselExample img{
+    aspect-ratio: 5/1;
+    object-fit: cover;
+}
+.exe-con{
+    height: auto;
+    width: auto;
+    background-color: #0697ff;
+}
+.exe-title{
+    padding-left: 30%;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.exe-form{
+    border: 5px solid black;
+    border-radius: 15px;
+    size: auto;
+    width: 500px;
+    height: inherit;
+    background: rgb(175, 223, 255);
+    margin: auto;
+}
+.exe-table{
+    margin: auto;
+}
+.exe-submit{
+    padding-left: 200px;
+}
